@@ -11,7 +11,7 @@
             <div class="col-lg-6 d-flex justify-content-between flex-column">
                 <?php
                 $c = count(get_field('items'));
-                echo $c;
+                // echo $c;
                 $x = 1;
                 $class = '';
                 while(have_rows('items')) {
