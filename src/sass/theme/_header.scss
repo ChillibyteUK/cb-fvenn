@@ -1,0 +1,81 @@
+#wrapper-navbar {
+    font-size: 16px;
+    background-color: var(--col-white);
+
+    transition: all .3s ease;
+
+    &.hide {
+        top: -140px;
+    }
+
+    .logo {
+        width: 60px
+    }
+
+    #main-menu {
+        li {
+            font-weight: 600;
+            font-size: 1.125rem;
+            line-height: 1;
+        }
+
+        .nav-link {
+            @media (min-width:1400px) {
+                margin-left: 1rem;
+            }
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            margin-bottom: 2px;
+            padding-bottom: 2px;
+            font-weight: 600;
+            @media (min-width:992px) {
+                width: 160px;
+                border-bottom: 2px solid var(--col-black);
+            }
+            br {
+                display: none;
+                @media (min-width:992px) {
+                    display: inline;
+                }
+            }
+        }
+        .current-menu-item>a {
+            color: var(--col-primary-400);
+            @media (min-width:992px) {
+                border-bottom: 2px solid var(--col-primary-400);
+            }
+        }
+    }
+    a {
+        color: var(--black);
+        &:hover {
+            color: var(--col-primary-400);
+        }
+    }
+
+    .navbar-toggler {
+        // margin-right: 1rem;
+        border: none;
+        color: var(--col-primary-400);
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .navbar-toggler .close-icon,
+    .navbar-toggler.collapsed .close-icon {
+        display: none !important;
+    }
+  
+    .navbar-toggler:not(.collapsed) .close-icon {
+        display: inline !important;
+    }
+    .navbar-toggler:not(.collapsed) .navbar-icon {
+        display: none !important;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+
+}

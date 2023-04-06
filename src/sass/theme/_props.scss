@@ -1,0 +1,18 @@
+//$col-primary-400: #ff7115; // easyjet
+// $col-primary-400: #ff683c;
+// $col-primary-400: #df3c2f; // red
+$col-primary-400: #e55a22; // more orange
+$col-primary-200: #ffd0b2;
+$col-grey-400: #6c757d;
+$col-grey-200: #f0f0f0;
+$col-black: #101010;
+$col-white: #fbfbfb;
+
+:root {
+    --col-primary-400: #{$col-primary-400};
+    --col-primary-200: #{$col-primary-200};
+    --col-grey-400: #{$col-grey-400};
+    --col-grey-200: #{$col-grey-200};
+    --col-black: #{$col-black};
+    --col-white: #{$col-white};
+}

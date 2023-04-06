@@ -1,0 +1,12 @@
+.quotes {
+    .quote {
+        padding-bottom: 2rem;
+        &__body {
+            margin-bottom: 0.5rem;
+            color: var(--col-grey-400);
+        }
+        &__attr {
+            text-align: right;
+        }
+    }
+}

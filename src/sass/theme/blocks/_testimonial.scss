@@ -1,0 +1,13 @@
+.testimonial_slider {
+    .container-xl {
+        border-bottom: 1px solid var(--col-primary-400);
+    }
+    .testimonial__body {
+        padding-bottom: 1rem;
+        font-weight: 300;
+        color: var(--col-grey-400);
+    }
+    .testimonial__attr {
+        text-align: right;
+    }
+}

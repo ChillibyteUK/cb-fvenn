@@ -1,0 +1,7 @@
+.contact {
+    input:not(input[type=submit]), textarea {
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid var(--col-black);
+    }
+}
