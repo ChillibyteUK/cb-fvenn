@@ -1,6 +1,6 @@
 <section class="quotes py-4">
     <div class="container-xl">
-        <div class="row gy-4 gx-5">
+        <div class="row gy-4 gx-5 justify-content-center">
             <?php
             $t = new WP_Query(array(
                 'post_type' => 'testimonials',
