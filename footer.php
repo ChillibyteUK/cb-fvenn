@@ -15,11 +15,8 @@ defined('ABSPATH') || exit;
                 <?=wp_nav_menu( array('theme_location' => 'footer_menu1') )?>
             </div>
             <div class="col-lg-4">
-                phone<br>
-                email<br>
-                addr1<br>
-                addr2<br>
-                addr3<br>
+                <?=do_shortcode('[contact_email]')?><br>
+                <?=do_shortcode('[contact_address]')?>
             </div>
         </div>
     </div>
