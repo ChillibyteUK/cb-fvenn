@@ -16,6 +16,7 @@ defined('ABSPATH') || exit;
             </div>
             <div class="col-lg-4">
                 <?=do_shortcode('[contact_email]')?><br>
+                <?=do_shortcode('[contact_phone]')?><br>
                 <?=do_shortcode('[contact_address]')?>
             </div>
         </div>
