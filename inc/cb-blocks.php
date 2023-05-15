@@ -121,6 +121,16 @@ function acf_blocks() {
 			'mode'	=> 'edit',
             'supports' => array('mode' => false),
 		));
+		acf_register_block_type(array(
+			'name'				=> 'cb_vimeo_video',
+			'title'				=> __('CB Vimeo Video'),
+			'category'			=> 'layout',
+			'icon'				=> 'cover-image',
+			'render_template'	=> 'page-templates/blocks/cb_video.php',
+			'keywords'			=> array( 'video' ),
+			'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+		));
     }
 }
 add_action('acf/init', 'acf_blocks');
