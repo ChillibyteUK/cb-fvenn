@@ -1,6 +1,9 @@
 .hero {
     h1 {
-        font-size: 66px;
+        // font-size: 66px;
+        font-size: 3.125rem;
+        font-size: clamp(3.125rem, 2.925rem + 1vw, 4.125rem);
+        line-height: 1.05;
         br {
             display: none;
             @media (min-width:992px) {
