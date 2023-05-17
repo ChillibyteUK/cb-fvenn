@@ -10,7 +10,7 @@
         $active = 'active';
         while ($t->have_posts()) {
             $t->the_post();
-            $content = get_field('short') ?: get_the_content();
+            $content = get_field('short',get_the_ID()) ?: get_the_content();
             ?>
 <div class="carousel-item <?=$active?>">
     <div class="testimonial__body fs-large"><?=$content?></div>
